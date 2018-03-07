@@ -17,4 +17,4 @@ def semordnilap(x):
         if a[::-1] in words:
             print a + ' and ' + a[::-1] + ' are semordnilap'
                 
-semordnilap('33.txt')
+semordnilap('semordnilap.txt')
