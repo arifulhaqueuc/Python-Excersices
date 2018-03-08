@@ -1,0 +1,7 @@
+# ----- function with return value -----
+def num_square(num):
+    return num * num
+
+my_num = 3
+print(num_square(2))
+print(num_square(my_num))
