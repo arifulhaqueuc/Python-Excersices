@@ -2,6 +2,7 @@
 import stat, sys, os, string, commands
 
 """
+Task: Search for files and show permissions
 Search for files and show permissions
 Steps:
 1. Get the search pattern from the user.
