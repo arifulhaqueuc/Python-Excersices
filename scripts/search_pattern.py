@@ -1,6 +1,17 @@
 
-
 import stat, sys, os, string, commands
+
+"""
+Search for files and show permissions
+Steps:
+1. Get the search pattern from the user.
+2. Perform the search.
+3. Print a listing of files found.
+4. Using the stat module, get permissions for
+each file found.
+5. Present the results to the user.
+"""
+
 
 #Getting search pattern from user and assigning it to a list
 
