@@ -57,6 +57,19 @@ To be added later
 | Mutable    | Yes | No | No | --- | Yes | 
 
 
+#### Lists vs Tuples  
+
+| List | Tuple | 
+| ---- | ----- |
+| There are some helpful functions in list. Such as append(),insert() | We donot have such functions in tuple |
+| ---- | Tuples use less space |
+| ---- | We can use tuples as dict keys |
+| ---- | We can use **Named Tuples** as an alternative to objects |
+| ---- | We can pass functions arguments as Tuples |
+
+
+
+
 ### Technical Description
 Following primary Technologies/concepts were used
   - Python 2.x
