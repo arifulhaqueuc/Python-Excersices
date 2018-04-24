@@ -48,16 +48,13 @@ To be added later
 | License Type | MIT |
 
 
-#### Functional Description
-All the following files are avilable in the 'queries' directory.
-<br /> *Please note that this description section may not be fully updated as of today as I update this section once a week. You might find more files in the application directory. Each script has a concise in-script description of the program.*
+#### Python's Basic Data Structure 
 
-| File Name | Difficulty Devel | Description |
-| --- | --- | --- | 
-| script_1 | Beginner | tbd  |
-| script_2 | Beginner | tbd  |
-| script_3 | Beginner | tbd  |
-| script_4 | Beginner | tbd  |
+| Properties | List | String | Tuple | Sets | Dict |
+| ---        | --- | --- | --- | --- | --- | 
+| Def        | Ordered Sequence of values | Sequence of Unicode Char | Ordered sequence of values | Unordered clooection of values | Unordered collection of key-value paris | 
+| Ordered    | Yes | No | Yes | No | No | 
+| Mutable    | Yes | No | No | --- | Yes | 
 
 
 ### Technical Description
