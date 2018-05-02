@@ -72,6 +72,17 @@ To be added later
 | Django has built-in bootstrap template | Flask doesnot have such feature |
 
 
+
+#### Python OOP
+
+| Terms | Definition | 
+| ---- | ----- |
+| attribute | This is a  property of a class that can further define the class in details |
+| method | It is a function within a class that performs a specific task. And, a method can access all the attributes of a class. In Python, a method has a by-default initial paramter which is called "self" |
+| class attribute | attributes that are shared across all instances of a class. They are created in tow ways (i) as part of the class, (ii) by using className.attributeName |
+
+
+
 ### Technical Description
 Following primary Technologies/concepts were used
   - Python 2.x
