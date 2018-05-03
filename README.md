@@ -89,6 +89,16 @@ To be added later
 | abstraction | Abstraction is the process of steps followed to achieve encapsulation |
 
 
+
+
+#### Series VS Dataframe
+
+| Series | Dataframe | 
+| ---- | ----- |
+| Series is one-dimensional | Dataframe is two-dimentional |
+| Series holds any types of data such as int, str, floating point | Dataframe is a labeled data structure with column of potential different types |
+
+
 ### Technical Description
 Following primary Technologies/concepts were used
   - Python 2.x
