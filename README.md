@@ -42,6 +42,25 @@ To be added later
 | License Type | MIT |
 
 
+#### List Comprehension
+List Comprehension is a very popular way in Python to produce a list in a very concise way. The idea is that sometimes we need to apply either some conditions and expressions within a for loop to produce a list object. In such case, if we donot apply list comprehension approach, we may need to write several lines of code. 
+
+
+```
+formula = [expression + for loop + condition]
+```
+Without list comprehension
+```
+list = []
+for i in range(1,10):
+  list.append(i*i)
+```
+With list comprehension
+```
+square = [x*x for i in range(1,10) if k>4]
+```
+
+
 #### Python's Basic Data Structure 
 
 | Properties | List | String | Tuple | Sets | Dict |
