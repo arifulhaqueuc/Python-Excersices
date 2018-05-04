@@ -89,6 +89,12 @@ To be added later
 | abstraction | Abstraction is the process of steps followed to achieve encapsulation |
 
 
+#### Global Interpreter Lock(GIL)
+The main idea behind GIL<br />
+The main challenge is that CPython is not fully thread safe. So, in order to support multi-threaded Python program, CPython provides a global lock, and this global lock must be held by the current thread before it can safely access any Python object in a program. As a result, no matter how many threads are present, only one thread is being executed at a given point of time. 
+
+Solution: PyPy implementation provides a stackless mode that can support micro-thread for massive concurrency. 
+
 
 
 #### Series VS Dataframe
