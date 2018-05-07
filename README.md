@@ -51,18 +51,16 @@ formula = [expression + for loop + condition]
 
 |  |  |
 | --- | --- |
-| Without list comprehension
+| Without list comprehension | With list comprehension |
+
 ```
 list = []
 for i in range(1,10):
   list.append(i*i)
 ```
-| With list comprehension
 ```
 square = [x*x for i in range(1,10) if k>4]
 ```
-|
-
 
 
 #### Python's Basic Data Structure 
