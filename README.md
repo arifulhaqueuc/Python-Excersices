@@ -43,24 +43,24 @@ To be added later
 
 
 #### List Comprehension
-List Comprehension is a very popular way in Python to produce a list in a very concise way. The idea is that sometimes we need to apply either some conditions and expressions within a for loop to produce a list object. In such case, if we donot apply list comprehension approach, we may need to write several lines of code. 
+  - List Comprehension is a very popular way in Python to produce a list in a very concise way. 
+  - The idea is that sometimes we need to apply either some conditions and expressions within a for loop to produce a list object. 
+  - In such case, instead of writing several lines of code, we can write only one line of code to produce the same output. Such process is called List comprehension.
+  
+We have the following formula to produce a list with list comprehension approach.   
 ```
-formula = [expression + for loop + condition]
+list = [expression + for loop + condition]
 ```
-
-
-|  |  |
-| --- | --- |
-| Without list comprehension | With list comprehension |
-
-```
-list = []
-for i in range(1,10):
-  list.append(i*i)
-```
-```
-square = [x*x for i in range(1,10) if k>4]
-```
+Let's see a side by side comparison between Regular Function and List Comprehension. 
+<br /> The task is to produce a list of square numbers between 1 to 10 when the input numbers are greater than 4.
+<pre>
+Regular Function                |         List Comprehension
+x = []                          |         x = [i*i for i in range(1,10) if i>4]
+for i in range(1,10):           |
+  if i > 4:                     | 
+    list.append(i*i)            |
+print(list)
+</pre>
 
 
 #### Python's Basic Data Structure 
