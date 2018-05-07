@@ -44,21 +44,25 @@ To be added later
 
 #### List Comprehension
 List Comprehension is a very popular way in Python to produce a list in a very concise way. The idea is that sometimes we need to apply either some conditions and expressions within a for loop to produce a list object. In such case, if we donot apply list comprehension approach, we may need to write several lines of code. 
-
-
 ```
 formula = [expression + for loop + condition]
 ```
-Without list comprehension
+
+
+|  |  |
+| --- | --- |
+| Without list comprehension
 ```
 list = []
 for i in range(1,10):
   list.append(i*i)
 ```
-With list comprehension
+| With list comprehension
 ```
 square = [x*x for i in range(1,10) if k>4]
 ```
+|
+
 
 
 #### Python's Basic Data Structure 
@@ -79,6 +83,8 @@ square = [x*x for i in range(1,10) if k>4]
 | ---- | We can use tuples as dict keys |
 | ---- | We can use **Named Tuples** as an alternative to objects |
 | ---- | We can pass functions arguments as Tuples |
+| Lists are homogeneous sequences, and have an order | Tuples are heterogeneous sequences, and have a structure |
+| Lists are not hashable | Tuples are hashable (To be hashable, an object needs to be immutable, and have a hash function) |
 
 
 #### Django vs Flask
