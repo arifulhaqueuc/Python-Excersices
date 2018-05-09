@@ -32,14 +32,13 @@ This repo is a collection of individual Python scripts.
 To be added later
 
 
-#### Birds Eye View 
-|  |  |
+#### Range vs Xrange
 | --- | --- |
-| Repo Type | Tutorial |
-| Current Status | Phase 1 |
-| Development Timeline | Start Feb 2018 :: Finish Feb 2018 |
-| Application Type | Backend |
-| License Type | MIT |
+| range() produces a Python List | xrange() produces an xrange object |
+| range generates a static list at run-time | xrange doesnot generate a static list at run-time |
+| it consumes more memory | it is very memory efficient because it generates an object which is available for display by looping |
+| present in Python 3 | removed from Python 3, only available in Python 2 |
+| range() is faster | --- |
 
 
 #### List Comprehension
