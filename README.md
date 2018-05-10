@@ -181,4 +181,5 @@ GIL
   - https://www.quora.com/What-is-Global-Interpreter-Lock-How-it-is-related-to-Python
   - https://opensource.com/article/17/4/grok-gil
   - https://realpython.com/python-gil/#what-problem-did-the-gil-solve-for-python
+  - https://wiki.python.org/moin/GlobalInterpreterLock
   
