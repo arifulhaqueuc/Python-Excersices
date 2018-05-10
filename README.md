@@ -173,5 +173,10 @@ This is my personal repo and not an official product of any company. If you woul
 
 
 #### References
+GIL
   - https://en.wikipedia.org/wiki/Global_interpreter_lock
   - https://en.wikipedia.org/wiki/Mutual_exclusion
+  - https://www.quora.com/What-is-Global-Interpreter-Lock-How-it-is-related-to-Python
+  - https://opensource.com/article/17/4/grok-gil
+  - https://realpython.com/python-gil/#what-problem-did-the-gil-solve-for-python
+  
