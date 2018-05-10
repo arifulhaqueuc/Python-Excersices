@@ -180,3 +180,11 @@ Multi-processing
   - https://docs.python.org/3.4/library/multiprocessing.html?highlight=process
   - https://docs.python.org/2/library/multiprocessing.html
   
+Deep Copy vs Shallow Copy
+  - https://docs.python.org/3/library/copy.html
+  - https://www.python-course.eu/deep_copy.php
+  - https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/
+  - https://stackoverflow.com/questions/17246693/what-exactly-is-the-difference-between-shallow-copy-deepcopy-and-normal-assignm
+  
+  
+  
