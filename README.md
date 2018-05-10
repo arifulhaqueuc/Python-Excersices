@@ -15,6 +15,24 @@ There are two threading modules in Python
 | this is the basic thread module in Python, this was developed in earlier version of Python | threading is based on thread, and this is a newer version with many new features. As a result, this is obviously a better option in todays multi-threaded Python program |
 
 
+#### Global Interpreter Lock (GIL)
+  - One of the fundamental concepts in a multi-threaded program in Python.
+  - GIL is basically a kind of lock held by an interpreter thread to avoid sharing code which is not thread-safe with other threads. 
+  - The underlying idea of GIL is that it is a mechanism used by an interpreter to synchronize the execution of threads in a multi-threaded program, so that only one thread is being executed at a given point of time. 
+  - An interpreter that uses GIL always allows only one thread to be executed at a time, even if it's being run on a multi-core processor.   
+  - The main challenge is that CPython is not fully thread safe. So, in order to support multi-threaded Python program, CPython provides a global lock, and this global lock must be held by the current thread before it can safely access any Python object in a program. As a result, no matter how many threads are present, only one thread is being executed at a given point of time. 
+  - In Python, the popular interpreter that offers GIL is CPython.
+
+Benefits of GIL
+  - easy integration of C libraries with a Python program, because usually C libraries are not thread-safe. 
+  - GIL helps to increase speed of a single-threaded program.
+
+Drawbacks
+  - In a multi-threaded program, use of GIL may limit the amount of parallelism reachable though concurrency of a single interpreter process.
+
+Solution
+  - PyPy implementation provides a stackless mode that can support micro-thread for massive concurrency. 
+
 
 
 
@@ -98,14 +116,6 @@ print(list)
 | abstraction | Abstraction is the process of steps followed to achieve encapsulation |
 
 
-#### Global Interpreter Lock(GIL)
-The main idea behind GIL<br />
-The main challenge is that CPython is not fully thread safe. So, in order to support multi-threaded Python program, CPython provides a global lock, and this global lock must be held by the current thread before it can safely access any Python object in a program. As a result, no matter how many threads are present, only one thread is being executed at a given point of time. 
-
-Solution: PyPy implementation provides a stackless mode that can support micro-thread for massive concurrency. 
-
-
-
 #### Series VS Dataframe
 
 | Series | Dataframe | 
@@ -159,3 +169,8 @@ Interester in Collaboration and Contribution??
 
 ### General Disclaimer
 This is my personal repo and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
+
+
+
+#### References
+  - https://en.wikipedia.org/wiki/Global_interpreter_lock
