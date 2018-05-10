@@ -174,3 +174,4 @@ This is my personal repo and not an official product of any company. If you woul
 
 #### References
   - https://en.wikipedia.org/wiki/Global_interpreter_lock
+  - https://en.wikipedia.org/wiki/Mutual_exclusion
