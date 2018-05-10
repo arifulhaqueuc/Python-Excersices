@@ -1,35 +1,13 @@
-:zap: Project Update Information
-====
-Last major update: May 02'2018
-
-
-
-:couple: Audience Insights 
-====
-#### Target Audience
-Python Developers who are interested to upgrade their knowledge by practicing common Python problems.
-
 
 #### Purpose(s)
-This repository helps us understand how to use solve basic Python pprogramming tasks.
+This repository helps us understand how to use solve basic Python programming tasks.
 
+#### Multi-Threading programs in Python
+In general, running several programs at the same time is referred to as multi-threaded programs. Sometimes, in a multi-threaded program, two separate threads try to read a same data which is absolutely fine. However, the problem occurs if two threads are going to manipulate/change the same data. Accessing the same data is fine, however changing data might produce wrong output. 
 
-#### What to expect
-After practicing all given queries at least couple of times would help the beginners of Python propgramming on how to write basic Python scripts. 
-
-
-#### Pre-requisites / Know Before You Go
-  - Basic knowledge of Python 2.x
-  - Basic knoledge of OOP
-
-
-:green_book: Project Insights
-===
-#### Repository Type
-This repo is a collection of individual Python scripts. 
-
-#### Knowledge Base
-To be added later
+There are two threading modules in Python
+  - thread: this is the basic thread module in Python, this was developed in earlier version of Python.
+  - threading: threading is based on thread, and this is a newer version with many new features. As a result, this is obviously a better option in todays multi-threaded Python program. 
 
 
 #### Range vs Xrange
