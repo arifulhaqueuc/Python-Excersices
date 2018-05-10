@@ -35,8 +35,12 @@ Solution of GIL / How can we fix or avoid the drawbacks of GIL
   - Python has multi-processing module, and that allows us to create multiple process easily. 
   - PyPy implementation provides a stackless mode that can support micro-thread for massive concurrency. 
 
+#### Multi-processing in Python 
+  - Multi-processing is a package that supports spawning processes using an API similar to the threading module. 
+  - The multi-processing package offers both local and remote concurrency, effectively side-stepping the Global Interpreter Lock by using subprocesses instead of threads. 
+  - Due to this, the multi-processing module allows a programmer to fully leverage multiple processors on a given machine. And, it runs on both Unix and Windows.
 
-
+*(directly from source mentioned below)*
 
 #### Range vs Xrange
 | range() | xrange() |
@@ -126,18 +130,6 @@ print(list)
 | Series holds any types of data such as int, str, floating point | Dataframe is a labeled data structure with column of potential different types |
 
 
-### Technical Description
-Following primary Technologies/concepts were used
-  - Python 2.x
-
-### How to run
-  - clone the repo
-  - activate the virtual environment
-  - install the required libraries from requiriement.txt
-  - run individual file from scripts directory
-
-
-
 #### How to import libraries
 General Syntax
 <br />Option 1
@@ -182,4 +174,9 @@ GIL
   - https://opensource.com/article/17/4/grok-gil
   - https://realpython.com/python-gil/#what-problem-did-the-gil-solve-for-python
   - https://wiki.python.org/moin/GlobalInterpreterLock
+  
+Multi-processing
+  - https://pymotw.com/2/multiprocessing/basics.html
+  - https://docs.python.org/3.4/library/multiprocessing.html?highlight=process
+  - https://docs.python.org/2/library/multiprocessing.html
   
