@@ -3,11 +3,19 @@
 This repository helps us understand how to use solve basic Python programming tasks.
 
 #### Multi-Threading programs in Python
-In general, running several programs at the same time is referred to as multi-threaded programs. Sometimes, in a multi-threaded program, two separate threads try to read a same data which is absolutely fine. However, the problem occurs if two threads are going to manipulate/change the same data. Accessing the same data is fine, however changing data might produce wrong output. 
+In general, running several programs at the same time is referred to as multi-threaded programs. 
+It is a very common idea in a multi-threaded program that two separate threads can access/read a same data such as a shared variable at the same time. And, such operation (accessing a same data at the same is absolutely fine), however the problem is that if the threads try to change/manipulate the data at that same data, the program might output a wrong result, or the program may even crash. 
 
 There are two threading modules in Python
-  - thread: this is the basic thread module in Python, this was developed in earlier version of Python.
-  - threading: threading is based on thread, and this is a newer version with many new features. As a result, this is obviously a better option in todays multi-threaded Python program. 
+  - thread
+  - threading 
+  
+| thread | threading |
+| --- | --- |
+| this is the basic thread module in Python, this was developed in earlier version of Python | threading is based on thread, and this is a newer version with many new features. As a result, this is obviously a better option in todays multi-threaded Python program |
+
+
+
 
 
 #### Range vs Xrange
