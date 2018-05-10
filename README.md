@@ -30,7 +30,9 @@ Benefits of GIL
 Drawbacks
   - In a multi-threaded program, use of GIL may limit the amount of parallelism reachable though concurrency of a single interpreter process.
 
-Solution
+Solution of GIL / How can we fix or avoid the drawbacks of GIL
+  - We can use multi-processing instead of multi-threading, meaning that, we can use multiple processing instead of threads. In this process, each Python process will get its own Python intepreter and memory space, so that the GIL will not cause any issue anymore. 
+  - Python has multi-processing module, and that allows us to create multiple process easily. 
   - PyPy implementation provides a stackless mode that can support micro-thread for massive concurrency. 
 
 
