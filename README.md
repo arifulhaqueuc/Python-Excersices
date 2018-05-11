@@ -185,6 +185,30 @@ Deep Copy vs Shallow Copy
   - https://www.python-course.eu/deep_copy.php
   - https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/
   - https://stackoverflow.com/questions/17246693/what-exactly-is-the-difference-between-shallow-copy-deepcopy-and-normal-assignm
+  - https://www.programiz.com/python-programming/shallow-deep-copy
+  - https://realpython.com/copying-python-objects/
+  - https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/
+  
+
+Call by Ref or Value
+  - https://www.python-course.eu/passing_arguments.php
+  - https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/
+  - 
+
+Generators
+  - https://www.programiz.com/python-programming/generator#what
+  
+Garbage collection
+  - https://www.journaldev.com/17927/python-garbage-collection-gc
+  - https://www.geeksforgeeks.org/garbage-collection-python/
+  - https://www.safaribooksonline.com/library/view/python-cookbook/0596001673/ch14s10.html
+  - https://docs.python.org/2/library/gc.html
+  - https://rushter.com/blog/python-garbage-collector/
+  - https://www.digi.com/resources/documentation/digidocs/90001537/references/r_python_garbage_coll.htm
+  
+  
+  
+  
   
   
   
