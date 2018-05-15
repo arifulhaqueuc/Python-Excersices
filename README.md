@@ -79,7 +79,7 @@ print(list)
 | ---        | --- | --- | --- | --- | --- | 
 | Def        | Ordered Sequence of values | Sequence of Unicode Char | Ordered sequence of values | Unordered clooection of values | Unordered collection of key-value paris | 
 | Ordered    | Yes | No | Yes | No | No | 
-| Mutable    | Yes | No | No | --- | Yes | 
+| Mutable    | Yes | No | No | Yes | Yes | 
 
 
 #### Lists vs Tuples  
@@ -92,7 +92,21 @@ print(list)
 | ---- | We can use **Named Tuples** as an alternative to objects |
 | ---- | We can pass functions arguments as Tuples |
 | Lists are homogeneous sequences, and have an order | Tuples are heterogeneous sequences, and have a structure |
-| Lists are not hashable | Tuples are hashable (To be hashable, an object needs to be immutable, and have a hash function) |
+| Lists are not hashable | Tuples are hashable (so, hashable = immutable + hash function) |
+
+
+
+#### Lists vs Sets
+
+| List | Set | 
+| ---- | ----- |
+| Not unique | Unique |
+| Ordered | Not Ordered |
+| List supports append and indexing. So, we can access an item in list by its index | Set doesnot support indexing, so we cannot access an item in set by its index |
+| ---- | Sets are implemented like a hash table (where has of the object is used to map the object) |
+| lists can contain any type of object | Sets can only contain hashable items |
+
+
 
 
 #### Django vs Flask
