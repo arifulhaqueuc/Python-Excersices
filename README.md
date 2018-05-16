@@ -1,6 +1,23 @@
 
-#### Purpose(s)
-This repository helps us understand how to use solve basic Python programming tasks.
+#### Online study sources
+  - Data camp
+  - Dzyer
+  - Coursera
+  - Cloudera
+
+
+#### Important Interview Topics
+  - lambda functions
+  - fizzbuzz
+  - decorator
+  - list comprehension
+  - OOP
+  - palindrom
+  - pass by value or pass by ref
+  - generator
+  - slicing
+  
+  
 
 #### Multi-Threading programs in Python
 In general, running several programs at the same time is referred to as multi-threaded programs. 
@@ -222,7 +239,15 @@ Garbage collection
   
   
   
-  
+AWS Topics
+  - ec2 type or size of instance
+  - what EBS
+  - lambda
+  - cloud formation
+  - teraform
+
+
+
   
   
   
