@@ -97,10 +97,12 @@ Let's see a side by side comparison between Regular Function and List Comprehens
 <pre>
 Regular Function                |         List Comprehension
 x = []                          |         x = [i*i for i in range(1,10) if i>4]
-for i in range(1,10):           |
-  if i > 4:                     | 
-    list.append(i*i)            |
-print(list)
+for i in range(1,10):           |         
+  if i > 4:                     |         Example, values = [1,2,3,4]
+    list.append(i*i)            |         d = [i*i for i in values if i>2]
+print(list)                     |         print(d) ## output: [9,16]
+
+
 </pre>
 
 
