@@ -1,4 +1,18 @@
 
+
+  
+  
+#### AWS Topics
+  - ec2 type or size of instance
+  - what EBS
+  - lambda
+  - cloud formation
+  - teraform
+
+
+
+
+
 #### Online study sources
   - Data camp
   - Dzyer
@@ -239,14 +253,9 @@ Garbage collection
   
   
   
-AWS Topics
-  - ec2 type or size of instance
-  - what EBS
-  - lambda
-  - cloud formation
-  - teraform
-
-
+Python
+  - https://www.python-course.eu/python3_generators.php
+  
 
   
   
