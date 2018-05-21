@@ -1,3 +1,11 @@
+#### Discussion Topics
+  - init method
+  - GIL
+  - Multi-Threading programs in Python
+  - Multi-processing in Python
+  - Xrange vs Range
+  - List Comprehension
+  - Python Data Structure
 
 
 #### __init__ method
