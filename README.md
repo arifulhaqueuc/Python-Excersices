@@ -1,36 +1,3 @@
-
-
-  
-  
-#### AWS Topics
-  - ec2 type or size of instance
-  - what EBS
-  - lambda
-  - cloud formation
-  - teraform
-
-
-
-
-
-#### Online study sources
-  - Data camp
-  - Dzyer
-  - Coursera
-  - Cloudera
-
-
-#### Important Interview Topics
-  - lambda functions
-  - fizzbuzz
-  - decorator
-  - list comprehension
-  - OOP
-  - palindrom
-  - pass by value or pass by ref
-  - generator
-  - slicing
-  
   
 
 #### Multi-Threading programs in Python
