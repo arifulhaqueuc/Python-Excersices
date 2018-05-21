@@ -1,4 +1,42 @@
-  
+
+
+#### __init__ method
+  - This is a special method in Python.
+  - This is the constructor method for a class. 
+  - _init__ is called when ever an object of the class is constructed. 
+
+Example
+```
+class Student(object):
+    """
+    Returns a ```Student``` object with the given name, branch and year.
+    """
+    def __init__(self, name, branch, year):
+            self.name = name
+            self.branch = branch
+            self.year = year
+            print("A student object is created.")
+
+    def print_details(self):
+        """
+        Prints the details of the student.
+        """
+        print("Name:", self.name)
+        print("Branch:", self.branch)
+        print("Year:", self.year)
+
+
+In terminal
+>>> std1 = Student()
+Traceback (most recent call last):
+File "<stdin>", line 1, in <module>
+TypeError: __init__() takes exactly 4 arguments (1 given)
+
+>>> std1 = Student('Kushal','CSE','2005')
+A student object is created
+
+```
+
 
 #### Multi-Threading programs in Python
 In general, running several programs at the same time is referred to as multi-threaded programs. 
