@@ -35,6 +35,10 @@ TypeError: __init__() takes exactly 4 arguments (1 given)
 >>> std1 = Student('Kushal','CSE','2005')
 A student object is created
 
+>>> std1.print_details()
+Name: Kushal
+Branch: CSE
+Year: 2005
 ```
 
 
@@ -262,7 +266,7 @@ Garbage collection
   
 Python
   - https://www.python-course.eu/python3_generators.php
-  
+  - http://pymbook.readthedocs.io/en/latest/classes.html#init-method  
 
   
   
