@@ -3,7 +3,7 @@
 #### __init__ method
   - This is a special method in Python.
   - This is the constructor method for a class. 
-  - _init__ is called when ever an object of the class is constructed. 
+  - this method is called when an object is created from a class. 
 
 Example
 ```
