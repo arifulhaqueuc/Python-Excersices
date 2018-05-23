@@ -14,25 +14,21 @@ def func(x):
 
 func(2) ## >> 7
 
+
+
 ## Labmda approach
-## formula
-## lambda input: expression
-## with only one input
 
 ## example 1
-
 lambda x: 3*x + 1
 
-
 ## example 2
-
-g = 4lambda x: 3*x + 1
-
+g = lambda x: 3*x + 1
 g(2)
 
 
 ## with more than two inputs
 ## example: combine first and last name
 
-full_name = lambda fn, ln: fn.strip().title() + " " + ln.strip().title()
+full_name = lambda x, y: x.strip().title() + " " + y.strip().title()
 full_name(" ariful", "HAQUE" )
+
