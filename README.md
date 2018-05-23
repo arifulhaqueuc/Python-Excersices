@@ -1,23 +1,54 @@
+#### Discussion Topics
+  - init method
+  - GIL
+  - Multi-Threading programs in Python
+  - Multi-processing in Python
+  - Xrange vs Range
+  - List Comprehension
+  - Python Data Structure
 
-#### Online study sources
-  - Data camp
-  - Dzyer
-  - Coursera
-  - Cloudera
+
+#### __init__ method
+  - This is a special method in Python.
+  - This is the constructor method for a class. 
+  - this method is called when an object is created from a class. 
+
+Example
+```
+class Student(object):
+    """
+    Returns a ```Student``` object with the given name, branch and year.
+    """
+    def __init__(self, name, branch, year):
+            self.name = name
+            self.branch = branch
+            self.year = year
+            print("A student object is created.")
+
+    def print_details(self):
+        """
+        Prints the details of the student.
+        """
+        print("Name:", self.name)
+        print("Branch:", self.branch)
+        print("Year:", self.year)
 
 
-#### Important Interview Topics
-  - lambda functions
-  - fizzbuzz
-  - decorator
-  - list comprehension
-  - OOP
-  - palindrom
-  - pass by value or pass by ref
-  - generator
-  - slicing
-  
-  
+In terminal
+>>> std1 = Student()
+Traceback (most recent call last):
+File "<stdin>", line 1, in <module>
+TypeError: __init__() takes exactly 4 arguments (1 given)
+
+>>> std1 = Student('Kushal','CSE','2005')
+A student object is created
+
+>>> std1.print_details()
+Name: Kushal
+Branch: CSE
+Year: 2005
+```
+
 
 #### Multi-Threading programs in Python
 In general, running several programs at the same time is referred to as multi-threaded programs. 
@@ -83,10 +114,12 @@ Let's see a side by side comparison between Regular Function and List Comprehens
 <pre>
 Regular Function                |         List Comprehension
 x = []                          |         x = [i*i for i in range(1,10) if i>4]
-for i in range(1,10):           |
-  if i > 4:                     | 
-    list.append(i*i)            |
-print(list)
+for i in range(1,10):           |         
+  if i > 4:                     |         Example, values = [1,2,3,4]
+    list.append(i*i)            |         d = [i*i for i in values if i>2]
+print(list)                     |         print(d) ## output: [9,16]
+
+
 </pre>
 
 
@@ -239,14 +272,9 @@ Garbage collection
   
   
   
-AWS Topics
-  - ec2 type or size of instance
-  - what EBS
-  - lambda
-  - cloud formation
-  - teraform
-
-
+Python
+  - https://www.python-course.eu/python3_generators.php
+  - http://pymbook.readthedocs.io/en/latest/classes.html#init-method  
 
   
   
