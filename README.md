@@ -1,3 +1,8 @@
+Fact Sheet of Python
+===
+- There is no ```switch statement``` in Python
+- Python doesnot have ```pointers```
+
 #### Discussion Topics
   - init method
   - GIL
