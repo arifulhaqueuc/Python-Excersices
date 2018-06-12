@@ -6,7 +6,7 @@ Python topics.
 
 List of Contents
 ===
-knowledge-base
+Knowledge-base
   - init method
   - Multi-Threading programs in Python
   - Multi-processing in Python
@@ -17,6 +17,48 @@ knowledge-base
   - Import libraries
   - List vs Set
   - List vs Tuple
+
+
+Fact Sheet of Python
+===
+- There is no ```switch statement``` in Python
+- Python doesnot have ```pointers```
+
+
+
+Ques: How do we convert a list to string and vice-versa ?
+<br>Ans:
+<br>We use list function to convert a string into a list. 
+<pre>
+s = "Hello World"
+x = list(s)
+print(x)
+</pre>
+We use ```join()``` to convert a list into a string.
+<pre>
+m = ["h", "e", "l", "l", "o"]
+p = " ".join(m)
+print(p)
+
+ab = "x".join(m)
+print(ab)
+</pre>
+
+
+Ques: What is negative index in Python
+
+Ques: What is the **similarity** in list and tuple
+<br>Ans: 
+<br>
+[1] They are both heterogenous. Meaning that they can hold different types of values. 
+<br>So, this is not worng in both list and tuple.
+<pre>
+abc = [1, 2, 3, 'av', 'xv']
+def = (1, 2, 3, 'av', 'xv')
+</pre>
+[2] They are both ordered.
+
+
 
 
 
