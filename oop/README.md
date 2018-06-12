@@ -1,4 +1,4 @@
-Structure of an OOP app
+Structure of an OOP script
 ===
 
 <pre>
@@ -27,9 +27,15 @@ print("This is the value of instance 2")	| this is just another instance of the 
 print(y.make) ## output>>> Nissan       	| We can make as many instances as we want. 
 print(y.year) ## output >>> 2010 
 
-## But this is a way we can change the value of a class attribute
-Car.year = "2011"
-print(x.year) ## output>>> 2011
+
+Car.year = "2011" 				| ## But this is a way we can change the value 
+print(x.year) ## output>>> 2011			| ## of a class attribute
 print(y.year) ## output>>> 2011
+
+
+c = Car()					| ## we can also add a new class attribute
+c.color = "Red"					| ## This is called instance attribute
+
+
 
 </pre>
