@@ -127,4 +127,11 @@ Python
 
   
   
-  
+Image Sources
+
+Popular Python Packages
+<br>
+Popular Django Packages
+ - Python for System Administrators Documentation. Jason McVetta. Release 0.1a. 
+
+
