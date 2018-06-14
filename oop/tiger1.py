@@ -5,19 +5,19 @@
 class Tiger:
   
   
-  def run(self):
+  def can_run(self):
     print("Tiger can run")
     
     
-  def eat(self):
+  def can_eat(self):
     print("Tiger can eat")
     
     
     
 def main():
 	x= Tiger()
-	x.run()
-	x.eat()   
+	x.can_run()
+	x.can_eat()   
 
 
 
