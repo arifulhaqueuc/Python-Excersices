@@ -25,7 +25,14 @@ Fact Sheet of Python
 - Python doesnot have ```pointers```
 
 
-
+Run Python code online tool
+===
+ - https://www.tutorialspoint.com/execute_python_online.php
+ - http://www.skulpt.org/
+ 
+ 
+Quick Questions
+===
 Ques: How do we convert a list to string and vice-versa ?
 <br>Ans:
 <br>We use list function to convert a string into a list. 
