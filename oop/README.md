@@ -39,3 +39,29 @@ c.color = "Red"					| ## This is called instance attribute
 
 
 </pre>
+
+
+
+
+## Example
+```
+class Vehicle(object):
+    
+  def nissan_car(self):
+    print("This is Nissan car")
+    current_price = remain + (remain* 0.02)
+    return current_price
+
+
+  def balance_remain(self):
+    total_cost = 10000
+    paid = 3000
+    remain = total_cost - paid
+    return remain
+
+
+
+
+
+
+```
