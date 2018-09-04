@@ -13,4 +13,7 @@ def avg_length(x):
         count += len(word)
     return count/len(words)
 
-print avg_length('38.txt')
+if __name__ == "__main__":
+    x = avg_length('38.txt')
+    print(x)
+    
