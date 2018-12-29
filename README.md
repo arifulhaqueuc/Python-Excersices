@@ -4,20 +4,6 @@ This is a collection of basic Python coding tutorials, and a healthy knowledge-b
 Python topics.
 
 
-List of Contents
-===
-Knowledge-base
-  - init method
-  - Multi-Threading programs in Python
-  - Multi-processing in Python
-  - Xrange vs Range
-  - List Comprehension
-  - Data Structure
-  - Django VS Flask
-  - Import libraries
-  - List vs Set
-  - List vs Tuple
-
 
 Fact Sheet of Python
 ===
